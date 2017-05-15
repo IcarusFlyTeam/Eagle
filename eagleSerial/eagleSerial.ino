@@ -148,11 +148,11 @@ void loop() {
 				myDebugSerial.println("Non so se il log si sia avviato!");
 			break;
 	case 7: myDebugSerial.println("Invio comando di arresto del log");
-			myXbee.SendCmdFire(startLog);
+			myXbee.SendCmdFire(stopLog);
 			if (myXbee.CheckAcknCmdFire(stopLog, T_TOLL))
-				myDebugSerial.println("Log avviato con Successo");
+				myDebugSerial.println("Log arrestato con Successo");
 			else
-				myDebugSerial.println("Non so se il log si � avviato!");
+				myDebugSerial.println("Non so se il log si sia arrestato!");
 			break;
 			break;
     default: Serial.println("Operazione non disponibile! Ritenta!");

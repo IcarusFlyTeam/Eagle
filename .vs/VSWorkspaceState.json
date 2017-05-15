@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\eagleSerial"
   ],
+  "SelectedNode": "\\eagleSerial\\eagleSerial.ino",
   "PreviewInSolutionExplorer": false
 }
